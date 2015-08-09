@@ -28,7 +28,8 @@ body {
 
 p,
 ul,
-ol {
+ol,
+table {
     margin-bottom: 1.4em;
     position: relative;
 }
@@ -140,7 +141,8 @@ ol {
         background-color: @white;
         border: 1px solid @lightGrey;
         max-width: 550px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
 
         th {
             text-align: right;
@@ -214,10 +216,12 @@ footer {
     }
 
     .projectDetails {
-        margin: 0 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
 
         th {
             padding-left: 0;
+            min-width: 120px;
         }
 
         td {
