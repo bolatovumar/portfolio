@@ -1,0 +1,23 @@
+!= partial("_shared/header")
+
+section(id="intro" class="intro")
+    h2(class="intro__title") Hi,
+    :markdown
+        Welcome to my portfolio.
+
+        Here you will find a selection of my work, school and personal projects. These projects showcase my skills in
+        web development, graphic design, user interaction and experience design, product design, and prototyping.
+
+        You can see more of my work on my [Github profile](https://github.com/bolatovumar). My work experience and skillset can be seen on my [resume](/docs/resume_umar_bolatov.pdf) (pdf) and my [LinkedIn
+        profile](https://www.linkedin.com/profile/view?id=151858498). You can always contact me through [e-mail](mailto:bolatovumar@gmail.com).
+section(id="content")
+    ul(class="pages")
+        for page, slug in public.pages._data
+            li(class="pages__item")
+                if page.image
+                    a(
+                        class="pages__imageLink"
+                        href=page.url ? page.url : "/pages/#{ slug }.html"): img(src="/img/home/#{ page.image }")
+                h3(class="pages__title"): a(class="pages__link" href="/pages/#{ slug }.html")!= page.title
+                if page.writeup
+                    p(class="pages__writeup")!= page.writeup

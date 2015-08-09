@@ -1,0 +1,74 @@
+{
+  "captionify": {
+    "image": "captionify.png",
+    "title": "Captionify JS library",
+    "url": "http://bolatovumar.github.io/captionify/",
+    "writeup": "Captionify is a lightweight JavaScript library for placing image captions. It is used throughout this site. See the Github <a href='https://github.com/bolatovumar/captionify'>repo</a>."
+  },
+  "orion": {
+    "description": "Orion Web IDE landing page &amp; editor styles import by Umar Bolatov",
+    "image": "orion.png",
+    "project_details": {
+      "url": "https://orionhub.org",
+      "github": "https://github.com/eclipse/orion.client",
+      "timeline": "January 2015 - May 2015",
+      "role": "JavaScript developer, UX & Design person",
+      "technologies": "JavaScript, HTML, Less, CSS, Grunt, RequireJS"
+    },
+    "title": "Orion Web IDE landing page &amp; editor styles import",
+    "writeup": "During my internship at IBM I built a new landing page for Orion Web IDE. I also contributed to the Orion's <a href='https://github.com/eclipse/orion.client/commits?author=bolatovumar'>source code</a> and made numerous UI and UX improvements, added new features, fixed a bunch of bugs and gained a core project contributor status in the process."
+  },
+  "yammertime": {
+    "title": "Yammertime web-app",
+    "image": "yammertime.png",
+    "url": "http://habaneroconsulting.github.io/yammertime/",
+    "writeup": "Yammertime is a web-app which aggregates Yammer posts in a Windows 8 Metro UI type of tiled grid. It is perfect for display on large screens and was used on a touchsreen TV located in the kitchen at Habanero Consulting where I developed this web-app during my internship. People used it to catch up on Yammer chatter during lunchtime. See the Github <a href='https://github.com/bolatovumar/yammertime'>repo</a>"
+  },
+  "beedie": {
+    "description": "Beedie School of Business website redesign",
+    "title": "Beedie School of Business website redesign",
+    "image": "beedie.jpg",
+    "project_details": {
+      "url": "http://beedie.sfu.ca",
+      "timeline": "January 2012 - September 2012",
+      "role": "Front-end developer",
+      "technologies": "HTML, CSS, jQuery, PHP, Marqui CMS, Wordpress"
+    },
+    "writeup": "During my internship at Segal Graduate School I redesigned the faculty website."
+  },
+  "lfone": {
+    "description": "LFOne by Zaha Hadid architectural model and renders",
+    "title": "LFOne By Zaha Hadid architectural model",
+    "image": "lfone.jpg",
+    "project_details": {
+      "timeline": "Spring 2011",
+      "collaborators": "Liam O'Brien, Ryan Yusi, Khalid Abdullah, Kevin Yang, McKenzie Farmer"
+    },
+    "writeup": "School project for a course in spatial design. This architectural model and accompanying 3D renders were created by a group of six people of the period of three weeks."
+  },
+  "door-handles": {
+    "description": "colombo design door handle deisgn competition submissions",
+    "title": "Door handle design competition submission",
+    "image": "handle.jpg",
+    "writeup": "Collection of door handle design renders produced for a design competition."
+  },
+  "toy-kit": {
+    "description": "Final project for a course in design fabrication",
+    "title": "Cardboard toy kit",
+    "image": "plane.jpg",
+    "project_details": {
+      "timeline": "Fall 2012",
+      "collaborators": "Liam O'Brien, Collin To, Miodrag Kapikul",
+      "technologies": "Adobe Illustrator, SolidWorks, CorelDraw"
+    }
+  },
+  "flashlight": {
+    "description": "Flexible bracelet flashlight prototype and render",
+    "title": "Flashlight prototype and 3D model",
+    "image": "flashlight.jpg",
+    "project_details": {
+      "timeline": "Summer 2015",
+      "technologies": "SolidWorks, blue foam, xacto knife, tape"
+    }
+  }
+}

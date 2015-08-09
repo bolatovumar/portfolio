@@ -1,0 +1,30 @@
+doctype
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    if page_title
+        title= page_title + " | " + title
+    else
+        title= title
+    meta(name='description', content= '#{ description }')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='apple-touch-icon-precomposed', sizes='57x57', href='/img/favicons/apple-touch-icon-57x57.png')
+    link(rel='apple-touch-icon-precomposed', sizes='114x114', href='/img/favicons/apple-touch-icon-114x114.png')
+    link(rel='apple-touch-icon-precomposed', sizes='72x72', href='/img/favicons/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon-precomposed', sizes='144x144', href='/img/favicons/apple-touch-icon-144x144.png')
+    link(rel='apple-touch-icon-precomposed', sizes='60x60', href='/img/favicons/apple-touch-icon-60x60.png')
+    link(rel='apple-touch-icon-precomposed', sizes='120x120', href='/img/favicons/apple-touch-icon-120x120.png')
+    link(rel='apple-touch-icon-precomposed', sizes='76x76', href='/img/favicons/apple-touch-icon-76x76.png')
+    link(rel='apple-touch-icon-precomposed', sizes='152x152', href='/img/favicons/apple-touch-icon-152x152.png')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-32x32.png', sizes='32x32')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-16x16.png', sizes='16x16')
+    link(rel='stylesheet' href='/styles/main.css')
+    link(href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css')
+  body
+    if(current.path[0] == 'pages')
+        != partial('_shared/pages')
+    else
+        != yield
+    footer Made with &hearts; in HarpJS
+    script(src='/js/scripts.js' async)

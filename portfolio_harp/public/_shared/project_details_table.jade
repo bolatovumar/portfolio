@@ -1,0 +1,29 @@
+if project_details
+        table(class="projectDetails")
+            tbody
+                if project_details.timeline
+                    tr(class="projectDetails__timeline")
+                        th Project timeline:
+                        td!=project_details.timeline
+                if project_details.role
+                    tr(class="projectDetails__role")
+                        th Role:
+                        td!=project_details.role
+                if project_details.url
+                    tr(class="projectDetails__url")
+                        th URL:
+                        td
+                            a(href=project_details.url)!=project_details.url
+                if project_details.github
+                    tr(class="projectDetails__github")
+                        th Github URL:
+                        td
+                            a(href=project_details.github)!=project_details.github
+                if project_details.technologies
+                    tr(class="projectDetails__technologies")
+                        th Tools used:
+                        td!=project_details.technologies
+                if project_details.collaborators
+                    tr(class="projectDetails__collaborators")
+                        th Collaborators:
+                        td!=project_details.collaborators
