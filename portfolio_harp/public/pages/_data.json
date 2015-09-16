@@ -21,7 +21,7 @@
   "yammertime": {
     "title": "Yammertime web-app",
     "image": "yammertime.png",
-    "url": "http://habaneroconsulting.github.io/yammertime/",
+    "url": "http://bolatovumar.github.io/yammertime/",
     "writeup": "Yammertime is a web-app which aggregates Yammer posts in a Windows 8 Metro UI type of tiled grid. It is perfect for display on large screens and was used on a touchsreen TV located in the kitchen at Habanero Consulting where I developed this web-app during my internship. People used it to catch up on Yammer chatter during lunchtime. See the Github <a href='https://github.com/bolatovumar/yammertime'>repo</a>"
   },
   "beedie": {
